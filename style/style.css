@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section:nth-child(1) {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(150, 241, 241);
+}
+section:nth-child(1) div {
+  text-align: center;
+  font-size: 3em;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 2px #000000;
+  color: transparent;
+}
+
+section:nth-child(2) {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section:nth-child(2) .box {
+  margin: 10px;
+}
+section:nth-child(2) .box .img img {
+  width: 15em;
+  border-radius: 10px;
+}
+section:nth-child(2) .box .text {
+  text-align: center;
+  margin-top: 10px;
+}
+section:nth-child(2) .box .text div:nth-child(1) {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+}/*# sourceMappingURL=style.css.map */
